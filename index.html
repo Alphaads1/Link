@@ -26,6 +26,26 @@
     
     <style>
         * {
+            @keyframes waveAnimation {
+    0% { height: 12px; }
+    50% { height: 38px; }
+    100% { height: 12px; }
+}
+
+.bar {
+    width: 8px;
+    border-radius: 4px;
+    animation: waveAnimation 1.2s infinite ease-in-out;
+}
+
+.bar:nth-child(1) { animation-delay: 0.1s; }
+.bar:nth-child(2) { animation-delay: 0.3s; }
+.bar:nth-child(3) { animation-delay: 0.2s; }
+.bar:nth-child(4) { animation-delay: 0.5s; }
+.bar:nth-child(5) { animation-delay: 0.2s; }
+.bar:nth-child(6) { animation-delay: 0.4s; }
+.bar:nth-child(7) { animation-delay: 0.1s; }
+            
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -289,8 +309,8 @@
 
         <!-- CTA Button -->
         <a href="https://t.me/+XbdoEXHzJEQ4ZDU1" class="subscribe-btn">
-            <i class="fas fa-rocket"></i> Join Today's VIP Room
-            <span class="btn-subtext">Instant Access To Premium Community</span>
+            <i class="fas fa-rocket"></i> Subscribe Now 
+            <span class="btn-subtext">Cricket Monika Vip Chenal </span>
         </a>
     </div>
 
